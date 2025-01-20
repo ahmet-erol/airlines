@@ -1,0 +1,52 @@
+@import "reset.css";
+
+/*Header*/
+
+.header .header__content {
+  display: flex;
+}
+
+.header__banner .banner--image {
+  width: 100%;
+}
+
+.header .header__content .header__menu {
+  padding: 10px;
+}
+
+.header .header__content .header__menu .header__menu--content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  gap: 100px;
+}
+
+.header
+  .header__content
+  .header__menu
+  .header__menu--content
+  .header__menu--logo {
+  padding-top: 5px;
+}
+
+.header
+  .header__content
+  .header__menu
+  .header__menu--content
+  .header__menu--nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.header
+  .header__content
+  .header__menu
+  .header__menu--content
+  .header__menu--nav
+  .header__menu--navitem {
+  size: 5px;
+}
+
+/*Header*/
