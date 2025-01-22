@@ -49,4 +49,43 @@
   size: 5px;
 }
 
+.header .header__banner {
+  display: flex;
+  position: relative;
+}
+
+.header .header__banner--image {
+  position: relative;
+}
+
+.header .header__banner--user {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header .header__banner--texts {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 15px;
+  top: 25%;
+  padding-left: 30px;
+}
+
+.header .header__banner--texts h1 {
+  font-size: 50px;
+  color: #f0f5f5;
+}
+
+.header .header__banner--texts span {
+  font-size: 20px;
+  color: #f0f5f5;
+}
+
+.header .header__banner--texts img {
+  width: 194px;
+  height: 56px;
+}
+
 /*Header*/
